@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin: 11px 13px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+}
+header ul li button{
+    background: #3342FF;
+    border: none;
+    outline: none;
+    padding: 10px 26px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+header ul li button:hover{
+    background: #3374FF;
+}
+header ul .bar{
+    padding:7px 5px 3px 6px;
+    border: 1px solid white;
+    border-radius: 30px;
+    outline: none;
+}
+header ul .bar:hover{
+    background: #ccc;
+}
+header ul .word:hover{
+    text-decoration: underline;
+}
+section .main{
+    width:500px;
+    height: 400px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    align-items: center;
+    padding: 20px 30px;
+    padding-left: 0 12px 0 12px;
+}
+section .main .img{
+    margin-left:25%;
+    padding-left: 5px
+}
+section .main .searchbox{
+    position: relative;
+    width: 115%;
+    margin-top: 17px;
+}
+section .main .searchbox .search{
+    width: 100%;
+    padding: 8px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    margin-top: 2px;
+    text-align: left;
+    text-indent: 21px;
+    height: 25px;
+}
+section .main .searchbox .search:hover{
+    box-shadow: 1px 1px 1px 1px #C0C0C0;
+}
+section .main .searchbox .icons{ 
+    position: absolute;
+    top:3%; 
+    display: flex;
+    padding: 12px 11px;
+    align-items: center;    
+} 
+section .main .searchbox .icons .mic{
+    position:absolute;
+    top:25%;
+    left:1300%;
+}
+section .main .searchbox .buttons{
+    margin-top:14px;
+    margin-left: 20%;
+}
+section .main .searchbox .buttons button{
+    margin: 0px 2px 0px 0px;
+    padding: 8px 8px;
+    font-size: 14px;
+    color: #555;
+    border:none;
+    cursor: pointer;
+    border-radius:4px; 
+    border:1px solid transparent;
+    outlinE:none;
+    text-decoration: none;
+    margin-left: 8%;
+}
+section .main .searchbox .buttons button a{
+    text-decoration: none;
+    color: black;
+}
+section .main .searchbox .buttons button:hover{
+    border:1px solid #ccc;
+}
+section .main .language li{
+   list-style: none;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size:14px;
+    margin-left:35%;
+}
+section .main .language a{
+    text-decoration: none;    
+    margin-left: -555%; 
+}
+section .main .language a:hover{
+    text-decoration: underline;
+}
+section .main .language .langText{
+    text-decoration: none;
+    font-size: 14px;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background: #f2f2f2;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0,0,0,0.05);   
+}  
+footer .row p{
+    padding: 16px 0px 14px 0px;
+    margin-left: 35px;
+    color: #5f6368
+}
+footer .row ul{
+    display: flex;
+    padding: 0 0 0 2.5%;
+}
+footer .row ul li{
+    list-style: none;
+    padding: 16px 0px 25px 0px;
+}
+footer .row .leftList li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5f6368;
+    margin-right: 35px;
+}
+footer .row .rightList li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5f6368;
+    margin-right: 25px;   
+}
+footer .row ul li:hover{
+    text-decoration: underline;
+}
